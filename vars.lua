@@ -1,7 +1,7 @@
 local vars = {}
 
-vars.GRID_WIDTH = 5
-vars.GRID_HEIGHT = 5
+vars.GRID_WIDTH = 10
+vars.GRID_HEIGHT = 10
 
 vars.CRISTALS = {'A', 'B', 'C', 'D', 'E', 'F'}
 
