@@ -23,6 +23,7 @@ end
 
 function grid:init()
     self:fillEmptyCells(true)
+    for _ in self:tick() do end
 end
 
 function grid:tick()
@@ -55,7 +56,7 @@ function grid:move(from, to)
         return
     end
 
-    for score in self:tick() do end
+    for _ in self:tick() do end
 end
 
 function grid:mix()

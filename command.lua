@@ -9,7 +9,6 @@ end
 
 function command:start()
     self.grid:init()
-    self.grid:dump()
     self:listen()
 end
 
